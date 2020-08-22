@@ -1,4 +1,44 @@
-h1{
-    color:salmon;
+html{
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
+header{
+    margin:auto;
+    background:grey;
+    text-align:center;
+    width:50%;
+   
+}
+p{
+    padding-bottom: 10px;
+}
 
+#survey-form{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-self: center;;
+    background:grey;
+    width: 50%;
+}
+
+#name, #email, #number, #gender, #dropdown, #check {
+    width:75%;
+    margin:auto;
+   margin-bottom:20px;
+}
+#name-label, #email-label, #number-label, #dropdown-label, #gender-label, #reco-label, #check-desc{
+    margin:auto;
+    width:73%;
+}
+#recoc{
+   
+   display:block;
+   position:relative;
+   left:100px;
+   padding:auto;
+   
+}
+
+#submit{
+    margin:auto;
 }

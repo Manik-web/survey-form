@@ -21,8 +21,8 @@
         <label id="number-label" for="number">Age</label><br>
         <input type="number" id="number" min="3" max="100" placeholder="Please enter your age"><br><br>
 
-        <p>Please select your gender:</p>
-        <div>
+        <p id="gender-label">Please select your gender:</p>
+        <div id="gender">
             <input type="radio" name="sex" id="male" value="male">
             <label for="male">Male</label>
 
@@ -41,23 +41,23 @@
             <option value="retired">Retired</option>
             <option value="other">Other</option></select><br><br>
 
-        <p>How likely are you to recommend this website?</p> 
-        <div>
+        <p id="reco-label">How likely are you to recommend this website?</p> 
+        <div id="recoc">
         <input type="radio" name="reco" id="vlikely" value="vlikely"> 
-        <label for="vlikely">Very Likely</label>
+        <label for="vlikely">Very Likely</label><br>
 
         <input type="radio" name="reco" id="likely" value="likely">
-        <label for="likely">Likely</label>
+        <label for="likely">Likely</label><br>
 
         <input type="radio" name="reco"id="nlikely" value="nlikely">
-        <label for="nlikely">Not Likely</label>
+        <label for="nlikely">Not Likely</label><br>
 
         <input type="radio" name="reco" id="dnot" value="dnot">
         <label for="dnot">Definitely Not!</label><br><br>
         </div>
 
-        <p>What do you think could be improved?</p>
-        <div>
+        <p id="check-desc">What do you think could be improved?</p><br>
+        <div id="check">
             <input type="checkbox" name="improvements" id="front" value="front">
             <label for="front">Front End Development</label>
 
