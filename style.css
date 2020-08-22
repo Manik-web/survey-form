@@ -2,11 +2,3 @@ h1{
     color:salmon;
 
 }
-#name {
-    display:flex;
-    flex-direction:column;
-}
-#email{
-    display:flex;
-    flex-direction:column;
-}

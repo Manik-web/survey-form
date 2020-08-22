@@ -12,12 +12,25 @@
         <p id="description">This is a test project to try and incorporate all the survey forms</p>
     </header>
     <form id="survey-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" required>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" required>
-        <label for="number">Age</label>
-        <input type="number" id="number" min="3" max="100">
+        <label id="name-label" for="name" >Name</label><br>
+        <input type="text" id="name" placeholder="Please enter your name" required><br><br>
+
+        <label id="email-label" for="email">E-mail</label><br>
+        <input type="email" id="email" placeholder="Please enter your e-mail address" required><br><br>
+
+        <label id="number-label" for="number">Age</label><br>
+        <input type="number" id="number" min="3" max="100" placeholder="Please enter your age"><br><br>
+
+        <label id="dropdown-label" for="dropdown">Please select from the following</label><br>
+        <select id="dropdown" placeholder="Please select your current role">
+            <option value="Student">Student</option>
+            <option value="parttime">Part Time Employed</option>
+            <option value="ffulltime">Full Time Employed</option>
+            <option value="retired">Retired</option>
+            <option value="other">Other</option></select><br><br>
+
+        <label for="radio"></label>    
+
     </form>
     
 </body>
