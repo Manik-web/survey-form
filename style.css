@@ -5,7 +5,8 @@ header{
     margin:auto;
     background:grey;
     text-align:center;
-    width:50%;
+    width:33%;
+    padding-bottom:30px;
    
 }
 p{
@@ -18,25 +19,35 @@ p{
     flex-direction:column;
     justify-self: center;;
     background:grey;
-    width: 50%;
+    width: 33%;
 }
 
-#name, #email, #number, #gender, #dropdown, #check {
-    width:75%;
+#name, #email, #number, #gender, #dropdown {
+    width:80%;
     margin:auto;
-   margin-bottom:20px;
+   margin-bottom:30px;
 }
-#name-label, #email-label, #number-label, #dropdown-label, #gender-label, #reco-label, #check-desc{
+#name-label, #email-label, #number-label, #dropdown-label, #gender-label, #reco-label, #check-desc, #check{
     margin:auto;
-    width:73%;
+    width:77%;
+    margin-bottom: 10px;
+}
+#check li{
+    display: block;
+    padding-left: 10px;
+    margin-right:5px;
+  
 }
 #recoc{
-   
    display:block;
    position:relative;
    left:100px;
    padding:auto;
-   
+}
+
+#comment-container, #comment-label{
+    margin:auto;
+    
 }
 
 #submit{

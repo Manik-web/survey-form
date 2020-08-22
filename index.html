@@ -27,10 +27,10 @@
             <label for="male">Male</label>
 
             <input type="radio" name="sex" id="female" value="female">
-            <label for="male">Female</label>
+            <label for="female">Female</label>
 
             <input type="radio" name="sex" id="other" value="other">
-            <label for="male">Other</label> <br><br>
+            <label for="other">Other</label> <br><br>
         </div>
 
         <label id="dropdown-label" for="dropdown">Please select from the following</label><br>
@@ -57,31 +57,29 @@
         </div>
 
         <p id="check-desc">What do you think could be improved?</p><br>
-        <div id="check">
-            <input type="checkbox" name="improvements" id="front" value="front">
-            <label for="front">Front End Development</label>
-
-            <input type="checkbox" name="improvements" id="back" value="back">
-            <label for="front">Back End Development</label>
-
-            <input type="checkbox" name="improvements" id="php" value="php">
-            <label for="front">PHP</label>
+        <ul id="check">
+           <li><input type="checkbox" name="improvements" id="front" value="front">Front End Development</li>
             
-            <input type="checkbox" name="improvements" id="sql" value="sql">
-            <label for="front">SQL</label>
+
+            <li><input type="checkbox" name="improvements" id="back" value="back">Back End Development</li>
             
-            <input type="checkbox" name="improvements" id="data" value="data">
-            <label for="front">Data Analysis</label>
+
+            <li><input type="checkbox" name="improvements" id="php" value="php">PHP</li>
             
-            <input type="checkbox" name="improvements" id="datav" value="datav">
-            <label for="front">Data Visualisation</label>    
+            
+            <li><input type="checkbox" name="improvements" id="sql" value="sql">SQL</li>
+            
+            <li><input type="checkbox" name="improvements" id="data" value="data">Data Analysis</li>
+            
+            
+            <li><input type="checkbox" name="improvements" id="datav" value="datav">Data Visualisation</li>
+        </ul>
 
+        <p id="comment-label"> If you have any comments you would like to add, please comment below</p>
 
-        </div>
-
-        <div>
-            <label for="comments">If you have any other comments please leave them below:</label>
-            <textarea rows="4" cols="50" name="comments" form="usrform"></textarea>
+        <div id="comment-container">
+            
+            <textarea rows="4" cols="50" id="comments" name="comments" form="usrform"></textarea>
         </div>
 
         <button id="submit">Submit</button>
