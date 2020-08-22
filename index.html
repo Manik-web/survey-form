@@ -21,6 +21,18 @@
         <label id="number-label" for="number">Age</label><br>
         <input type="number" id="number" min="3" max="100" placeholder="Please enter your age"><br><br>
 
+        <p>Please select your gender:</p>
+        <div>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="male">Female</label>
+
+            <input type="radio" name="sex" id="other" value="other">
+            <label for="male">Other</label> <br><br>
+        </div>
+
         <label id="dropdown-label" for="dropdown">Please select from the following</label><br>
         <select id="dropdown" placeholder="Please select your current role">
             <option value="Student">Student</option>
@@ -29,7 +41,50 @@
             <option value="retired">Retired</option>
             <option value="other">Other</option></select><br><br>
 
-        <label for="radio"></label>    
+        <p>How likely are you to recommend this website?</p> 
+        <div>
+        <input type="radio" name="reco" id="vlikely" value="vlikely"> 
+        <label for="vlikely">Very Likely</label>
+
+        <input type="radio" name="reco" id="likely" value="likely">
+        <label for="likely">Likely</label>
+
+        <input type="radio" name="reco"id="nlikely" value="nlikely">
+        <label for="nlikely">Not Likely</label>
+
+        <input type="radio" name="reco" id="dnot" value="dnot">
+        <label for="dnot">Definitely Not!</label><br><br>
+        </div>
+
+        <p>What do you think could be improved?</p>
+        <div>
+            <input type="checkbox" name="improvements" id="front" value="front">
+            <label for="front">Front End Development</label>
+
+            <input type="checkbox" name="improvements" id="back" value="back">
+            <label for="front">Back End Development</label>
+
+            <input type="checkbox" name="improvements" id="php" value="php">
+            <label for="front">PHP</label>
+            
+            <input type="checkbox" name="improvements" id="sql" value="sql">
+            <label for="front">SQL</label>
+            
+            <input type="checkbox" name="improvements" id="data" value="data">
+            <label for="front">Data Analysis</label>
+            
+            <input type="checkbox" name="improvements" id="datav" value="datav">
+            <label for="front">Data Visualisation</label>    
+
+
+        </div>
+
+        <div>
+            <label for="comments">If you have any other comments please leave them below:</label>
+            <textarea rows="4" cols="50" name="comments" form="usrform"></textarea>
+        </div>
+
+        <button id="submit">Submit</button>
 
     </form>
     
